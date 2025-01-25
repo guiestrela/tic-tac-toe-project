@@ -81,7 +81,7 @@ function App() {
     });
   }
 
-  function handleRestart(){
+  function handleRestart(gameBoard){
     setGameTurns([]);
     // setHasWinner(false);
     // setActivePlayer('X');
